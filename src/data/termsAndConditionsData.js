@@ -13,8 +13,6 @@ import {
   Scale,
   RefreshCcw,
   Globe,
-  Mail,
-  Phone,
 } from "lucide-react";
 
 export const introText =

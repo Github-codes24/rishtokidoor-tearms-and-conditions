@@ -1,6 +1,5 @@
 import {
   ShieldCheck,
-  User,
   Eye,
   Lock,
   Globe,
@@ -9,12 +8,8 @@ import {
   RefreshCcw,
   Mail,
   Phone,
-  MapPin,
-  Database,
-  CreditCard,
   Share2,
   MessageCircle,
-  FileText,
 } from "lucide-react";
 import {
   introText,
@@ -27,7 +22,6 @@ import {
   dataRetention,
   yourRights,
   cookiesTracking,
-  thirdPartyServices,
   contactDetails,
 } from "../data/privacyPolicyData";
 import SectionHeading from "./SectionHeading";
@@ -295,33 +289,9 @@ export default function PrivacyPolicy() {
               features may not work properly.
             </p>
           </section>
-
-          {/* 10. Third-Party Services */}
+          {/* 10. Children's Privacy */}
           <section className="space-y-6">
-            <SectionHeading number="10" title="Third-Party Services" />
-            <p className="text-gray-900 text-[14px] mb-4">
-              Our Platform may use third-party services such as:
-            </p>
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-4">
-              {thirdPartyServices.map((item, idx) => (
-                <div
-                  key={idx}
-                  className="bg-white border border-pink-100 rounded-xl p-4 text-center shadow-sm"
-                >
-                  <p className="text-gray-900 text-[13px] font-medium">
-                    {item}
-                  </p>
-                </div>
-              ))}
-            </div>
-            <p className="text-gray-900 text-[14px] italic">
-              These services may have their own privacy policies.
-            </p>
-          </section>
-
-          {/* 11. Children's Privacy */}
-          <section className="space-y-6">
-            <SectionHeading number="11" title="Children’s Privacy" />
+            <SectionHeading number="10" title="Children’s Privacy" />
             <div className="bg-white shadow-sm border border-pink-100 rounded-xl p-5 flex items-center gap-4">
               <AlertTriangle className="text-[#FF7394] shrink-0" size={24} />
               <p className="text-gray-900 text-[14px] leading-relaxed">
@@ -331,9 +301,9 @@ export default function PrivacyPolicy() {
             </div>
           </section>
 
-          {/* 12. International Data Transfers */}
+          {/* 11. International Data Transfers */}
           <section className="space-y-6">
-            <SectionHeading number="12" title="International Data Transfers" />
+            <SectionHeading number="11" title="International Data Transfers" />
             <div className="bg-white shadow-sm border border-pink-100 rounded-xl p-5 flex items-center gap-4">
               <Globe className="text-[#FF7394] shrink-0" size={24} />
               <p className="text-gray-900 text-[14px] leading-relaxed">
@@ -343,7 +313,7 @@ export default function PrivacyPolicy() {
             </div>
           </section>
 
-          {/* 13. Changes to This Privacy Policy */}
+          {/* 12. Changes to This Privacy Policy */}
           <section className="space-y-6">
             <SectionHeading
               number="13"
@@ -358,9 +328,9 @@ export default function PrivacyPolicy() {
             </div>
           </section>
 
-          {/* 14. Contact Us */}
+          {/* 13. Contact Us */}
           <section className="space-y-6">
-            <SectionHeading number="14" title="Contact Us" />
+            <SectionHeading number="13" title="Contact Us" />
             <p className="text-gray-900 text-[14px] mb-4">
               If you have any questions regarding this Privacy Policy, contact
               us:

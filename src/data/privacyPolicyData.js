@@ -1,20 +1,8 @@
 import {
   User,
   ShieldCheck,
-  MapPin,
   CreditCard,
-  Eye,
-  Lock,
-  Globe,
-  Cookie,
-  AlertTriangle,
-  RefreshCcw,
-  Mail,
-  Phone,
-  MessageCircle,
   Database,
-  Share2,
-  FileText
 } from "lucide-react";
 
 export const introText = "Welcome to Risto Ki Door (“Platform,” “we,” “our,” or “us”). We respect your privacy and are committed to protecting your personal information. This Privacy Policy explains how we collect, use, store, and protect your information when you use our matrimonial platform.";

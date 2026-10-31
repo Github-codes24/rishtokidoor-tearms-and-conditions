@@ -9,91 +9,103 @@ import {
   UserCheck,
 } from "lucide-react";
 
+export const companyInfo = {
+  appName: "Rishton Ki Dor",
+  legalEntity: "Rishton Ki Dor Matrimony",
+  email: "rishtonkidor18@gmail.com",
+  phone: "+91 9356352581",
+  address: "Nagpur, Maharashtra, India",
+  deletionUrl: "https://rishtokidoor-deletion-page.netlify.app/",
+};
+
 export const introText =
-  "Risto Ki Door is a matrimonial platform intended only for adults who are 18 years or older. We are committed to child safety, human safety, and preventing misuse of our platform.";
+  "Rishton Ki Dor is a matrimonial platform operated by Rishton Ki Dor Matrimony, strictly intended only for adults who are 18 years or older. We maintain absolute zero tolerance for child sexual abuse material (CSAM), child sexual exploitation and abuse (CSAE), grooming, or any endangerment of minors. We are committed to human safety, child safety, and preventing misuse of our platform in compliance with Indian laws and Google Play Developer Child Safety standards.";
 
 export const sections = [
   {
     number: "1",
     icon: UserCheck,
-    title: "Age Restriction",
+    title: "Strict Age Restriction (18+ Only)",
     points: [
-      "The Platform is only for users who are 18 years or older.",
-      "Children and minors are not allowed to create accounts or use matchmaking features.",
-      "Accounts found to belong to minors may be removed immediately.",
+      "The Platform is exclusively for individuals who are 18 years or older.",
+      "Minors and children are strictly prohibited from creating accounts, browsing, or using matchmaking features.",
+      "Any account suspected or found to belong to a minor is terminated and permanently purged immediately.",
     ],
   },
   {
     number: "2",
     icon: Ban,
-    title: "Zero Tolerance for Child Exploitation",
+    title: "Zero Tolerance for Child Exploitation & Abuse",
     points: [
-      "We strictly prohibit child sexual abuse material, child exploitation, grooming, trafficking, or any content that endangers children.",
-      "Users must not upload, request, share, or promote any content involving minors in a sexual, abusive, unsafe, or exploitative manner.",
-      "Any such activity may lead to account termination and reporting to the appropriate authorities where required by law.",
+      "We strictly prohibit child sexual abuse material (CSAM), child sexual exploitation and abuse (CSAE), grooming, trafficking, child labor, or any endangerment of children.",
+      "Users must not upload, request, solicit, transmit, or promote any content involving minors in any manner.",
+      "Violations result in immediate permanent account termination, device blocking, and formal reporting to Indian law enforcement authorities and international reporting bodies where applicable.",
     ],
   },
   {
     number: "3",
     icon: ShieldCheck,
-    title: "Profile Review and Safety Action",
+    title: "Proactive Review & Safety Enforcement",
     points: [
-      "We may review profiles, photos, messages, reports, and account activity to detect unsafe or suspicious behavior.",
-      "Profiles with false age details, suspicious identity claims, or child safety concerns may be restricted, suspended, or removed.",
-      "We may ask for verification when needed to protect users and maintain platform safety.",
+      "We employ proactive and reactive review mechanisms on profiles, photos, reports, and suspicious behaviors.",
+      "Profiles with inconsistent age details, fake age declarations, or child safety risks are restricted, frozen, or removed.",
+      "We mandate government ID verification whenever necessary to protect users and preserve platform integrity.",
     ],
   },
   {
     number: "4",
     icon: MessageCircle,
-    title: "Reporting Unsafe Behavior",
+    title: "Reporting Unsafe Content & Urgent Takedowns",
     points: [
-      "Users should report any profile, message, image, or behavior that appears to involve a minor or child safety risk.",
-      "Reports related to child safety are treated as high priority.",
-      "Users can contact us directly using the email or phone number listed below.",
+      "Users are urged to immediately report any profile, message, image, or behavior that suggests minor involvement or child safety hazards.",
+      "Child safety reports receive highest priority triage and are handled within accelerated response windows.",
+      "Urgent reports can be dispatched directly to our dedicated safety helpline and grievance email listed below.",
     ],
   },
   {
     number: "5",
     icon: Lock,
-    title: "Privacy and Data Protection",
+    title: "Privacy & Protection of Minors' Data",
     points: [
-      "We do not knowingly collect personal information from children.",
-      "If we discover that a minor has submitted personal information, we may delete the account and related data, subject to legal and safety requirements.",
-      "User information is handled according to our Privacy Policy and applicable laws.",
+      "We never intentionally solicit or gather personal data from children under 18.",
+      "If we determine that an account was created by a minor, all associated personal data is permanently deleted from our active databases.",
+      "Handling of all user data is governed strictly by our Privacy Policy and the DPDP Act 2023.",
     ],
   },
   {
     number: "6",
     icon: Eye,
-    title: "Human Safety Guidance",
+    title: "Human Safety & Offline Meeting Guidance",
     points: [
-      "Users should be careful when sharing personal details, financial information, or location information with other users.",
-      "Users should avoid sending money or gifts to people they have only met online.",
-      "For in-person meetings, users should choose a public place, inform a trusted person, and use their own judgment.",
+      "Exercise strict vigilance before sharing sensitive private details or financial information with other users.",
+      "Never send money, wire transfers, or financial assistance to individuals you have only encountered online.",
+      "For initial in-person matrimonial meetings, always choose secure public venues, notify family members or trusted friends, and arrange your own transportation.",
     ],
   },
   {
     number: "7",
     icon: FileText,
-    title: "Legal Cooperation",
+    title: "Cooperation with Law Enforcement",
     points: [
-      "We may preserve and share relevant information with law enforcement, regulators, or legal authorities when required by law.",
-      "We cooperate with valid legal requests related to child safety, fraud prevention, abuse prevention, and user protection.",
+      "We fully cooperate with cyber cells, police authorities, and statutory investigative agencies under the Indian Information Technology Act and POCSO Act.",
+      "Evidence preservation and data handovers are conducted promptly pursuant to valid legal process for child protection.",
     ],
   },
   {
     number: "8",
     icon: AlertTriangle,
-    title: "Emergency Notice",
+    title: "Emergency Situations",
     points: [
-      "If any person is in immediate danger, contact local emergency services first.",
-      "Platform reports are not a replacement for emergency help or law enforcement support.",
+      "If you suspect someone is in imminent physical danger or a child is being harmed, contact local emergency police (112 / 1098 Childline in India) immediately.",
+      "Platform reporting mechanisms serve alongside and do not replace direct emergency police response.",
     ],
   },
 ];
 
 export const contactDetails = {
+  company: "Rishton Ki Dor Matrimony",
   email: "rishtonkidor18@gmail.com",
-  phone: "9356352581",
+  phone: "+91 9356352581",
+  address: "Nagpur, Maharashtra, India",
+  deletionUrl: "https://rishtokidoor-deletion-page.netlify.app/",
 };
